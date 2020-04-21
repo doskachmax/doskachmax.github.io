@@ -367,54 +367,74 @@ b{
 .iten13{
 	grid-column: 10/14;
 	grid-row: 10/11;
+	text-align: start;
 }
 .iten14{
-	grid-column: 10/13;
+	grid-column: 10/14;
 	grid-row: 11/13;
+	text-align: start;
+	font-size: 14pt;
 }
 .iten15{
 	grid-column: 10/17;
 	grid-row: 13/15;
+	text-align: start;
 }
 .iten16{
-	grid-column: 10/13;
+	grid-column: 10/14;
 	grid-row: 16/17;
+	text-align: start;
+	font-size: 14pt;
 }
 .iten17{
 	grid-column: 10/17;
 	grid-row: 17/19;
+	text-align: start;
 }
 .iten18{
-	grid-column: 10/13;
+	grid-column: 10/14;
 	grid-row: 20/21;
+	text-align: start;
+	font-size: 14pt;
 }
 .iten19{
 	grid-column: 10/17;
-	grid-row: 21/23;
+	grid-row: 21/23;	
+	text-align: start;
 }
 .iten20{
 	grid-column: 17/21;
 	grid-row: 10/11;
+	text-align: start;
+	border: none;
 }
 .iten21{
-	grid-column: 17/20;
+	grid-column: 17/21;
 	grid-row: 11/13;
+	text-align: start;
+	font-size: 14pt;
 }
 .iten22{
 	grid-column: 17/24;
 	grid-row: 13/15;
+	text-align: start;
 }
 .iten23{
-	grid-column: 17/20;
+	grid-column: 17/21;
 	grid-row: 16/17;
+	text-align: start;
+	font-size: 14pt;
 }
 .iten24{
 	grid-column: 17/24;
 	grid-row: 17/19;
+	text-align: start;
 }
 .iten25{
-	grid-column: 17/20;
+	grid-column: 17/21;
 	grid-row: 20/21;
+	font-size: 14pt;
+	text-align: start;
 }
 .iten26{
 	grid-column: 17/24;
@@ -461,6 +481,11 @@ b{
 	grid-row: 1/35;
 	background: lightblue;
 	border: none;
+}
+.box1{
+	width: 70%;
+	height: 1%;
+	background: yellow;
 }
 .containemrs{
 	width: 90%;
