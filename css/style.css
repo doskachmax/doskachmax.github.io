@@ -25,7 +25,7 @@ body{
 	grid-row: 2/5;
 	grid-column: 1/7;
 	border: none;
-
+	position: sticky;
 }
 .item2{
 	grid-row: 3/4;
@@ -49,16 +49,10 @@ body{
 	text-decoration: none;
 	color: black;
 }
-.item5{
-	grid-row: 3/4;
-	grid-column: 22/24;
-	border: none;
-	text-decoration: none;
-	color: black;
-}
+
 .item6{
 	grid-row: 3/4;
-	grid-column: 26/28;
+	grid-column: 22/24;
 	border: none;
 	text-decoration: none;
 	color: black;
@@ -81,6 +75,7 @@ body{
 	grid-row: 6/8;
 	grid-column: 1/7; 
 	border: none;
+	position: sticky;
 }
 .item11{
 	grid-row: 7/9;
@@ -99,6 +94,7 @@ body{
 	grid-column: 2/6;
 	height: 160px;
 	width: 160px;
+	position: sticky;
 }
 
 .item14{
@@ -120,6 +116,7 @@ body{
 .item17{
 	grid-row: 13/16;
 	grid-column: 21/29;
+	background: lightblue;
 }
 .item18{
 	grid-row: 15/17;
@@ -129,11 +126,13 @@ body{
 }
 .item19{
 	grid-row: 15/17;
-	grid-column: 20/22; 
+	grid-column: 20/22;
+	border: none;
 }
 .item20{
 	grid-row: 16/17;
-	grid-column: 22/25; 
+	grid-column: 22/25;
+	border: none;
 }
 .item21{
 	grid-row: 19/20;
@@ -210,6 +209,7 @@ img{
 	grid-column: 1/7;
 	background: lightblue;
 	border: none;
+	position: sticky;
 }
 b{
 	border: none;
@@ -356,15 +356,9 @@ b{
 	text-decoration: none;
 	color: black;
 }
-.iten5{
-	grid-column: 22/24;
-	grid-row: 3/4;
-	border: none;
-	text-decoration: none;
-	color: black;
-}
+
 .iten6{
-	grid-column: 26/28;
+	grid-column: 22/24;
 	grid-row: 3/4;
 	border: none;
 	text-decoration: none;
@@ -591,15 +585,8 @@ b{
 	color: black;
 	border: none;
 }
-.itemn5{
-	grid-column: 22/24;
-	grid-row: 3/4;
-	text-decoration: none;
-	color: black;
-	border: none;
-}
 .itemn6{
-	grid-column: 26/28;
+	grid-column: 22/24;
 	grid-row: 3/4;
 	text-decoration: none;
 	color: black;
@@ -637,36 +624,43 @@ b{
 	grid-column: 10/13;
 	grid-row: 10/11;
 	border: none;
+	text-align: center;
 }
 .itemn14{
 	grid-column: 10/18;
 	grid-row: 12/13;
 	border: none;
+	text-align: center;
 }
 .itemn15{
 	grid-column: 10/15;
 	grid-row: 14/15;
 	border: none;
+	text-align: center;
 }
 .itemn16{
 	grid-column: 10/15;
 	grid-row: 16/17;
 	border: none;
+	text-align: center;
 }
 .itemn17{
 	grid-column: 10/15;
 	grid-row: 18/19;
 	border: none;
+	text-align: center;
 }
 .itemn18{
 	grid-column: 10/15;
 	grid-row: 20/21;
 	border: none;
+	text-align: center;
 }
 .itemn19{
 	grid-column: 19/22;
 	grid-row: 10/11;
 	border: none;
+	text-align: center;
 }
 .itemn20{
 	grid-column: 19/31;
@@ -712,6 +706,13 @@ b{
 	grid-row: 1/17;
 	grid-column: 1/7;
 	background: lightblue;
+	color: black;
+	text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 .iter25{
 	grid-row: 2/5;
@@ -742,16 +743,9 @@ b{
 	text-decoration: none;
 	color: black;
 }
-.iter5{
-	grid-row: 3/4;
-	grid-column: 22/24;
-	border: none;
-	text-decoration: none;
-	color: black;
-}
 .iter6{
 	grid-row: 3/4;
-	grid-column: 26/28;
+	grid-column: 22/24;
 	border: none;
 	text-decoration: none;
 	color: black;
@@ -843,6 +837,12 @@ input{
 	width:100%;
 	height: 100%;
 }
+.itemn13{
+	border-bottom: 2px solid orange;
+}
+.itemn19{
+	border-bottom: 2px solid orange;
+}
 .item2:hover {
 	border-bottom: 2px solid orange;
 }
@@ -890,4 +890,12 @@ input{
 }
 .itemn6:hover {
 	border-bottom: 2px solid orange;
+}
+@media (max-width: 600px) {
+.container{
+	grid-template-columns: 2fr repeat(7,1fr) 2fr 2fr 1fr 1fr 3fr 1fr 2fr 2fr 1fr 1fr 2fr 1fr 4fr 2fr 4fr    2fr 2fr 2fr 4fr 2fr 2fr 2fr 5fr 2fr;
+	grid-template-rows: repeat(30,1fr);
+	width: 600px;
+	height: 1200px;
+}
 }
