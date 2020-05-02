@@ -898,7 +898,7 @@ input{
 .itemn6:hover {
 	border-bottom: 2px solid orange;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 .container{
 	width: 600px;
 	height: 1200px;
