@@ -898,9 +898,9 @@ input{
 .itemn6:hover {
 	border-bottom: 2px solid orange;
 }
-@media (max-width: 375px) {
+@media (max-width: 500px) {
 .container{
-	width: 375px;
+	width: 500px;
 	height: 1200px;
 	grid-template-columns: repeat(29, 1fr);
 	grid-template-rows: 1fr 2fr 2fr 2fr 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr 3fr 1fr 2fr 2fr 1fr 1fr 6fr 2fr repeat(3,1fr) 3fr repeat(3,1fr) 3fr 1fr;
