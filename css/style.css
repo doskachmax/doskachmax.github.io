@@ -790,50 +790,83 @@ b{
 .iter13{
 	grid-row: 10/12;
 	grid-column: 10/14;
+	background: green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .iter14{
 	grid-row: 10/12;
 	grid-column: 15/19;
+	background: yellow;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .iter15{
 	grid-row: 10/12;
 	grid-column: 20/24;
+	background: red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .iter16{
 	grid-row: 10/12;
 	grid-column: 25/29;
+	display: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .iter17{
 	grid-row: 13/15;
 	grid-column: 10/14;
+	background: blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .iter18{
 	grid-row: 13/15;
 	grid-column: 15/19;
+	background: lightblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .iter19{
 	grid-row: 13/15;
 	grid-column: 20/24;
+	background: orange;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .iter20{
 	grid-row: 13/15;
 	grid-column: 25/29;
+	display: none;
 }
 .iter21{
 	grid-row: 16/17;
 	grid-column: 10/14;
+	display: none;
 }
 .iter22{
 	grid-row: 16/17;
 	grid-column: 15/19;
+	display: none;
 }
 .iter23{
 	grid-row: 16/17;
 	grid-column: 20/24;
+	display: none;
 }
 .iter24{
 	grid-row: 16/17;
 	grid-column: 25/29;
+	display: none;
 }
 
 .lol{
